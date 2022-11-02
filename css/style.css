@@ -44,6 +44,35 @@ body {margin:0;}
 }
 
 .clearfix {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix h1 {
+  font-size:3vw
+}
+
+.clearfix p {
+  font-size:1vw
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+.img1 {
+  float: right;
+}
+
+.clearfix {
   width: 60%;
   margin: auto;
 }
